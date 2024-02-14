@@ -5,7 +5,7 @@ Frameworks and tools
   ---
   * Flutter
   * REST API
-  * GETX Engine
+  * GETX 
 
   Features
   ---
