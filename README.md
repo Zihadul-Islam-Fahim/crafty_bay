@@ -1,5 +1,5 @@
 # crafty_bay
-A new Ecommercer project.
+A new Ecommerce project.
 
 Frameworks and tools
   ---
