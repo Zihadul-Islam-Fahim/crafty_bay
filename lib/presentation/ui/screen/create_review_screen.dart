@@ -21,6 +21,16 @@ class _CreateReviewScreenState extends State<CreateReviewScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Create Review'),
+        leadingWidth: 20,
+        leading: IconButton(
+          onPressed: () {
+            Get.back();
+          },
+          icon: const Icon(
+            Icons.arrow_back_ios,
+            color: Colors.grey,
+          ),
+        ),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16.0),

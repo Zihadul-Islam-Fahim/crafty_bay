@@ -27,6 +27,16 @@ class _ReviewScreenState extends State<ReviewScreen> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Reviews'),
+        leadingWidth: 20,
+        leading: IconButton(
+          onPressed: () {
+            Get.back();
+          },
+          icon: const Icon(
+            Icons.arrow_back_ios,
+            color: Colors.grey,
+          ),
+        ),
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: () {
