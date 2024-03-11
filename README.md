@@ -5,7 +5,8 @@ Frameworks and tools
   ---
   * Flutter
   * REST API
-  * GETX 
+  * GETX
+  * MVVM Arhitecture
 
   Features
   ---
